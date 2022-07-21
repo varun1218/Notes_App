@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_allnotes">
+
+    <fragment
+        android:id="@+id/nav_locked_notes"
+        android:name="com.example.bottomnavigationdrawer.ui.LockedNotes.Lockednotes_Fragment"
+        android:label="Locked_Notes"
+        tools:layout="@layout/fragment_lockednotes" />
+
+    <fragment
+        android:id="@+id/nav_allnotes"
+        android:name="com.example.bottomnavigationdrawer.ui.All_notes.Allnotes_Fragment"
+        android:label="All_Notes"
+        tools:layout="@layout/fragment_allnotes" />
+
+    <fragment
+        android:id="@+id/nav_faq"
+        android:name="com.example.bottomnavigationdrawer.ui.Faqs.FaQs_Fragment"
+        android:label="Faqs"
+        tools:layout="@layout/fragment_faqs" />
+
+    <fragment
+        android:id="@+id/nav_privacypolicy"
+        android:name="com.example.bottomnavigationdrawer.ui.privacypolicy.privacy_policy_fragment"
+        android:label="PrivacyPolicy"
+        tools:layout="@layout/fragment_privacy_policy" />
+</navigation>

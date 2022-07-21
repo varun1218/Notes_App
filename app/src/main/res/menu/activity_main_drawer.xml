@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_allnotes"
+            android:icon="@drawable/all_notes"
+            android:title="All notes" />
+        <item
+
+            android:id="@+id/nav_locked_notes"
+            android:icon="@drawable/lock"
+            android:title="Locked notes" />
+
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/notes_faq"
+            android:title="FAQs" />
+
+        <item
+            android:id="@+id/nav_darkmode"
+            android:icon="@drawable/night_mode"
+            android:title="Dark mode" />
+
+        <item
+            android:id="@+id/nav_privacypolicy"
+            android:icon="@drawable/privacy_policy"
+            android:title="Privacy policy" />
+
+        <item
+            android:id="@+id/nav_rateus"
+            android:icon="@drawable/rateus"
+            android:title="Rate Us" />
+    </group>
+</menu>

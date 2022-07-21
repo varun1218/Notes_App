@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Bottom Navigation Drawer</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">John Doe</string>
+    <string name="nav_header_subtitle">Hello!</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="detail_faq_1">You should create notes for your daily routine like what to do and save your time by creating notes</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
